@@ -1,0 +1,12 @@
+{
+  "name": "my-claude-skills",
+  "version": "1.0.0",
+  "description": "Custom Claude Skills marketplace",
+  "author": "Yi Su",
+  "skills": [
+    {
+      "name": "clean-commit",
+      "path": "skills/clean-commit"
+    }
+  ]
+}
