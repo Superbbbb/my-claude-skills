@@ -1,12 +1,22 @@
 {
   "name": "my-claude-skills",
-  "version": "1.0.0",
-  "description": "Custom Claude Skills marketplace",
-  "author": "Yi Su",
-  "skills": [
+  "owner": {
+    "name": "Yi Su",
+    "email": "example@gmail.com"
+  },
+  "metadata": {
+    "description": "first claude skill plugin",
+    "version": "1.0.0"
+  },
+  "plugins": [
     {
-      "name": "clean-commit",
-      "path": "skills/clean-commit"
+      "name": "clean-commit-skill",
+      "description": "first claude skill plugin which creates clean commit message",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/clean-commit"
+      ]
     }
   ]
 }
